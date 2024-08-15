@@ -256,6 +256,68 @@ const Home = props => {
                 carouselType={carouselConstants.FEEDBACK_SLIDER}
               />
             </div>
+            <div className={styles.agency}>
+              <div className={styles.agencyTop}>
+                <h3 className={styles.agencyTitle}>
+                  Like A Naming Agency, But Better
+                </h3>
+                <p className={styles.agencyText}>
+                  With Atom's managed contests, leverage our team's naming
+                  expertise and our pool of 300K+ naming experts. Our
+                  hybrid-solution partners you with a trained Atom branding
+                  consultant who will guide your crowdsourcing process
+                  step-by-step to get the best results possible.
+                </p>
+              </div>
+              <ul className={styles.agencyList}>
+                <li className={styles.agencyItem}>
+                  <img
+                    className={styles.agencyItemIcon}
+                    src={`${CONSTANTS.STATIC_IMAGES_PATH}agency/agency1.svg`}
+                    alt='Agency icon 1'
+                  />
+                  <h3 className={styles.agencyItemTitle}>Consultant Led</h3>
+                  <p className={styles.agencyItemText}>
+                    Work one-on-one with a Atom branding consultant.
+                  </p>
+                </li>
+                <li className={styles.agencyItem}>
+                  <img
+                    className={styles.agencyIcon}
+                    src={`${CONSTANTS.STATIC_IMAGES_PATH}agency/agency2.svg`}
+                    alt='Agency icon 2'
+                  />
+                  <h3 className={styles.agencyItemTitle}>Crowd Powered</h3>
+                  <p className={styles.agencyItemText}>
+                    Work with our top rated Creatives and receive a huge breadth
+                    of ideas.
+                  </p>
+                </li>
+                <li className={styles.agencyItem}>
+                  <img
+                    className={styles.agencyIcon}
+                    src={`${CONSTANTS.STATIC_IMAGES_PATH}agency/agency3.svg`}
+                    alt='Agency icon 3'
+                  />
+                  <h3 className={styles.agencyItemTitle}>Trademark Reports</h3>
+                  <p className={styles.agencyItemText}>
+                    Comprehensive trademark screening on your shortlisted names.
+                  </p>
+                </li>
+                <li className={styles.agencyItem}>
+                  <img
+                    className={styles.agencyIcon}
+                    src={`${CONSTANTS.STATIC_IMAGES_PATH}agency/agency4.svg`}
+                    alt='Agency icon 4'
+                  />
+                  <h3 className={styles.agencyItemTitle}>Audience Testing</h3>
+                  <p className={styles.agencyItemText}>
+                    Get rapid feedback from real people on your shortlist of
+                    business names.
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
         </>
       )}
