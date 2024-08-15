@@ -256,7 +256,7 @@ const Home = props => {
                 carouselType={carouselConstants.FEEDBACK_SLIDER}
               />
             </div>
-            <div className={styles.agencyContainer}>
+            <div className={styles.agency}>
               <div className={styles.agencyTop}>
                 <h3 className={styles.agencyTitle}>
                   Like A Naming Agency, But Better
