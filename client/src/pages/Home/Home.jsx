@@ -9,7 +9,7 @@ import styles from './Home.module.sass';
 import carouselConstants from '../../carouselConstants';
 import Spinner from '../../components/Spinner/Spinner';
 
-const Home = props => {
+const Home = (props) => {
   const [index, setIndex] = useState(0);
   const [styleName, setStyle] = useState(styles.headline__static);
   let timeout;
@@ -49,7 +49,7 @@ const Home = props => {
                 for immediate purchase
               </p>
               <div className={styles.button}>
-                <Link className={styles.button__link} to='/dashboard'>
+                <Link className={styles.button__link} to="/dashboard">
                   DASHBOARD
                 </Link>
               </div>
@@ -66,7 +66,7 @@ const Home = props => {
                 <div className={styles.card}>
                   <img
                     src={`${CONSTANTS.STATIC_IMAGES_PATH}more-benifits-world-icon.png`}
-                    alt='globe'
+                    alt="globe"
                   />
                   <h3>Largest Naming Community</h3>
                   <p>
@@ -80,7 +80,7 @@ const Home = props => {
                 <div className={styles.card}>
                   <img
                     src={`${CONSTANTS.STATIC_IMAGES_PATH}more-benifits-high-quality-icon.png`}
-                    alt='desktop'
+                    alt="desktop"
                   />
                   <h3>High Quality & Collaboration</h3>
                   <p>
@@ -93,7 +93,7 @@ const Home = props => {
                 <div className={styles.card}>
                   <img
                     src={`${CONSTANTS.STATIC_IMAGES_PATH}more-benifits-trademark-icon.png`}
-                    alt='cards'
+                    alt="cards"
                   />
                   <h3>Agency-Level Features</h3>
                   <p>
@@ -111,31 +111,31 @@ const Home = props => {
                 <div className={styles.images}>
                   <img
                     src={`${CONSTANTS.STATIC_IMAGES_PATH}sponsors/Forbes-inactive.png`}
-                    alt='forbes'
+                    alt="forbes"
                   />
                   <img
                     src={`${CONSTANTS.STATIC_IMAGES_PATH}sponsors/Forbes-active.png`}
-                    alt='forbes'
+                    alt="forbes"
                   />
                 </div>
                 <div className={styles.images}>
                   <img
                     src={`${CONSTANTS.STATIC_IMAGES_PATH}sponsors/the_next_web_inactive.png`}
-                    alt='web'
+                    alt="web"
                   />
                   <img
                     src={`${CONSTANTS.STATIC_IMAGES_PATH}sponsors/the_next_web_active.png`}
-                    alt='web'
+                    alt="web"
                   />
                 </div>
                 <div className={styles.images}>
                   <img
                     src={`${CONSTANTS.STATIC_IMAGES_PATH}sponsors/mashable-inactive.png`}
-                    alt='mashable'
+                    alt="mashable"
                   />
                   <img
                     src={`${CONSTANTS.STATIC_IMAGES_PATH}sponsors/mashable-active.png`}
-                    alt='mashable'
+                    alt="mashable"
                   />
                 </div>
               </div>
@@ -160,14 +160,14 @@ const Home = props => {
                 <div>
                   <h3>Step 1: Launch a Naming Contest</h3>
                   <p>
-                    <i className='fas fa-check' />
+                    <i className="fas fa-check" />
                     <span>
                       Start your project right with our proven Naming Brief
                       template
                     </span>
                   </p>
                   <p>
-                    <i className='fas fa-check' />
+                    <i className="fas fa-check" />
                     <span>
                       We’ll walk you through exactly what you need to share
                       about your project in order to get an awesome Name
@@ -176,7 +176,7 @@ const Home = props => {
                 </div>
                 <img
                   src={`${CONSTANTS.STATIC_IMAGES_PATH}gif/1-compressed.gif`}
-                  alt='compressed'
+                  alt="compressed"
                 />
               </div>
             </div>
@@ -184,18 +184,18 @@ const Home = props => {
               <div className={styles.step}>
                 <img
                   src={`${CONSTANTS.STATIC_IMAGES_PATH}gif/2-compressed-new.gif`}
-                  alt='compressed'
+                  alt="compressed"
                 />
                 <div className={styles.greenStep}>
                   <h3>Step 2: Ideas start pouring in within minutes</h3>
                   <p>
-                    <i className='fas fa-check' />
+                    <i className="fas fa-check" />
                     <span>
                       100s of naming experts start submitting name ideas
                     </span>
                   </p>
                   <p>
-                    <i className='fas fa-check' />
+                    <i className="fas fa-check" />
                     <span>
                       Names automatically checked for URL availability
                     </span>
@@ -208,17 +208,17 @@ const Home = props => {
                 <div>
                   <h3>Step 3: Rate Entries & Brainstorm with Creatives</h3>
                   <p>
-                    <i className='fas fa-check' />
+                    <i className="fas fa-check" />
                     <span>Provide instant feedback on Names</span>
                   </p>
                   <p>
-                    <i className='fas fa-check' />
+                    <i className="fas fa-check" />
                     <span>
                       Send private feedback or public messages to all creatives
                     </span>
                   </p>
                   <p>
-                    <i className='fas fa-check' />
+                    <i className="fas fa-check" />
                     <span>
                       The more entries you rate - the submissions get better and
                       better
@@ -227,7 +227,7 @@ const Home = props => {
                 </div>
                 <img
                   src={`${CONSTANTS.STATIC_IMAGES_PATH}gif/3-compressed.gif`}
-                  alt='compressed'
+                  alt="compressed"
                 />
               </div>
             </div>
@@ -245,7 +245,7 @@ const Home = props => {
               carouselType={carouselConstants.EXAMPLE_SLIDER}
             />
             <div className={styles.button}>
-              <Link className={styles.button__link} to='/dashboard'>
+              <Link className={styles.button__link} to="/dashboard">
                 DASHBOARD
               </Link>
             </div>
@@ -274,7 +274,7 @@ const Home = props => {
                   <img
                     className={styles.agencyItemIcon}
                     src={`${CONSTANTS.STATIC_IMAGES_PATH}agency/agency1.svg`}
-                    alt='Agency icon 1'
+                    alt="Agency icon 1"
                   />
                   <h3 className={styles.agencyItemTitle}>Consultant Led</h3>
                   <p className={styles.agencyItemText}>
@@ -285,7 +285,7 @@ const Home = props => {
                   <img
                     className={styles.agencyIcon}
                     src={`${CONSTANTS.STATIC_IMAGES_PATH}agency/agency2.svg`}
-                    alt='Agency icon 2'
+                    alt="Agency icon 2"
                   />
                   <h3 className={styles.agencyItemTitle}>Crowd Powered</h3>
                   <p className={styles.agencyItemText}>
@@ -297,7 +297,7 @@ const Home = props => {
                   <img
                     className={styles.agencyIcon}
                     src={`${CONSTANTS.STATIC_IMAGES_PATH}agency/agency3.svg`}
-                    alt='Agency icon 3'
+                    alt="Agency icon 3"
                   />
                   <h3 className={styles.agencyItemTitle}>Trademark Reports</h3>
                   <p className={styles.agencyItemText}>
@@ -308,7 +308,7 @@ const Home = props => {
                   <img
                     className={styles.agencyIcon}
                     src={`${CONSTANTS.STATIC_IMAGES_PATH}agency/agency4.svg`}
-                    alt='Agency icon 4'
+                    alt="Agency icon 4"
                   />
                   <h3 className={styles.agencyItemTitle}>Audience Testing</h3>
                   <p className={styles.agencyItemText}>
@@ -317,6 +317,9 @@ const Home = props => {
                   </p>
                 </li>
               </ul>
+              <Link className={styles.agencyLink} to="/">
+                Load More
+              </Link>
             </div>
           </div>
         </>
@@ -325,7 +328,7 @@ const Home = props => {
   );
 };
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   const { isFetching } = state.userStore;
   return { isFetching };
 };
